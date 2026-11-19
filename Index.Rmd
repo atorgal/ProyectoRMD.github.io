@@ -2,7 +2,12 @@
 title: "01_primer"
 author: "ATG"
 date: "2026-11-19"
-output: html_document
+output: 
+  github_document:
+    html_preview: false
+  htmlo_document: 
+    toc: true
+    number_sections: true
 ---
 
 ```{r setup, include=FALSE}
